@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="StyleSheet3.css">
+</head>
+<body>
+
+    <nav>
+        <a href="homePage.html">Home</a>
+        <a href="HTMLPage1.html">q1</a>
+        <a href="HTMLPage2.html">q2</a>
+        <a href="HTMLPage3.html">q3</a>
+        <a href="HTMLPage4.html">q4</a>
+    </nav>
+
+    <div class="container">
+        <h2>Enter the time for a country</h2>
+        <form id="clockForm">
+            <div>
+                <label for="country"> Country</label>
+                <input type="text" id="country" required><br>
+
+            </div>
+
+            <div>
+                <label for="hours">Hours</label>
+                <input id="hours" type="number" required><br>
+
+            </div>
+
+            <div>
+                <label for="minutes">Minutes</label>
+                <input id="minutes" type="number" required><br>
+
+            </div>
+
+            <div>
+                <label for="seconds">Seconds</label>
+                <input id="seconds" type="number" required><br>
+
+            </div>
+
+            <button type="submit" id="addClockButton">Add Clock</button>
+            <button type="button" id="resetButton">Reset</button>
+
+        </form>
+
+
+        <div id="counterDisplay" style="display: none;">
+            <p>You need to create 5 clocks. Clocks created: <span id="counter">0</span> out of 5</p>
+        </div>
+
+        <div id="clockInfo"></div>
+    </div>
+
+    <footer>
+        <p>© 2024 Adi Dagan, Ilay Gozlan, Ofri Gross</p>
+    </footer>
+
+    <script src="Script3.js"></script>
+</body>
+</html>

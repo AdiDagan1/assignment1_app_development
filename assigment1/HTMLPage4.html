@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assigment1</title>
+    <link rel="stylesheet" href="StyleSheet4.css">
+</head>
+<body>
+
+    <nav>
+        <a href="homePage.html">Home</a>
+        <a href="HTMLPage1.html">q1</a>
+        <a href="HTMLPage2.html">q2</a>
+        <a href="HTMLPage3.html">q3</a>
+        <a href="HTMLPage4.html">q4</a>
+    </nav>
+
+    <div class="container">
+        <button onclick="showExampleTrue()">Search for Exact Point</button>
+        <button onclick="showExampleFalse()">Search for Exact Point (No Match)</button>
+        <button onclick="showArrayExampleTrue()">Search for Point by Coordinates</button>
+        <button onclick="showArrayExampleFalse()">Search for Point by Coordinates (No Match)</button>
+        <button onclick="showPath()">Show Path and Distance</button>
+        <canvas id="pathCanvas" width="600" height="400"></canvas>
+        <div id="output"></div>
+
+    </div>
+
+
+    <footer>
+        <p>© 2024 Adi Dagan, Ilay Gozlan, Ofri Gross</p>
+    </footer>
+
+    <script src="Script4.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Duck Information - Page 1</title>
+    <link rel="stylesheet" href="StyleSheet2.css">
+</head>
+<body>
+    <nav>
+        <a href="homePage.html">Home</a>
+        <a href="HTMLPage1.html">q1</a>
+        <a href="HTMLPage2.html">q2</a>
+        <a href="HTMLPage3.html">q3</a>
+        <a href="HTMLPage4.html">q4</a>
+    </nav>
+    <div class="container ">
+        <h2>Duck Information</h2>
+        <form id="duckForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required><br>
+
+            <label for="color">Color:</label>
+            <input type="text" id="color" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" required><br>
+
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight" required><br>
+
+            <label for="image">Image URL:</label>
+            <input type="text" id="image" required><br>
+
+            <button type="submit" id="submit">Create Duck</button>
+        </form>
+
+        <div id="buttons">
+            <button id="showButton">Show</button>
+            <button id="quackButton">Quack</button>
+           
+        </div>
+
+     
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span id="closePopup" class="close-btn">&times;</span>
+                <div id="popupOutput"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© 2024 Adi Dagan, Ilay Gozlan, Ofri Gross</p>
+    </footer>
+    <script src="Script2.js"></script>
+</body>
+</html>
